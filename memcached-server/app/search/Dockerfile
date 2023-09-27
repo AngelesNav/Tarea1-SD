@@ -10,7 +10,7 @@ COPY . /app
 # Instala las dependencias del proyecto
 RUN pip install python-memcached
 RUN pip install -r requirements.txt
-g
+
 
 # Expone el puerto en el que se ejecuta la aplicación (ajusta esto según tu necesidad)
 EXPOSE 50051
